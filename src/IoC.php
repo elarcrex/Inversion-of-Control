@@ -49,7 +49,7 @@ class IoC {
             } 
             else 
             {
-                array_push( $array, self::make($dependency->getClass()->name));
+                array_push( $array, static::make($dependency->getClass()->name));
             }
         }
 
