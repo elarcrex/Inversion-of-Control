@@ -18,10 +18,10 @@ class IoC {
             return $resolver();
         }
 
-        return static::attempResolve($class);
+        return static::attemptResolve($class);
     }
 
-    public static function attempResolve($class) 
+    public static function attemptResolve($class) 
     {
         $reflector = new ReflectionClass($class);
         
