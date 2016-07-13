@@ -1,7 +1,7 @@
 # Inversion-of-Control
 ## IoC Container
 
-Object-oriented programming ah chuan class kan nei teuh thin a, kan application chhunga kan object te kha fing taka khawsa tura kan duh chuan kan class te kha kan in hmelhriattir a ngai thin a; kan in mamawh tawn tir a ni ber ang chu. Hetia class pakhatin class a mamawh tih avanga class constructor emaw methods chhunga class instance siamna hard-code ai chuan Dependency Injection hmangin class kan instance kan thun mai thin a ni. Dependency Injection han tih hian thil ho ve tak mai a ni a, a tawngkam hi a changkang vang hian mi tam tak hian hriatchian emaw zir chian an tumlo (peihlo) fo thin. Dependency Injection chu class methods ah arguments pek a ni mai a, mahse Dependency Injection kan tih deuh bik hi chuan class **methods** (heng ho pawh hi function kan tih tho kha a ni) ah class dang instance arguments anga kan pek kha a ni mai. 
+Object-oriented programming ah chuan class kan nei teuh thin a, kan application chhunga kan object te kha fing taka khawsa tura kan duh chuan kan class te kha kan in hmelhriattir a ngai thin a; kan in mamawh tawn tir a ni ber ang chu. Hetia class pakhatin class a mamawh tih avanga class constructor emaw methods chhunga class instance siamna hard-code ai chuan Dependency Injection hmangin class instance kan thun(inject) mai thin a ni. Dependency Injection han tih hian thil ho ve tak mai a ni a, a tawngkam hi a changkang vang hian mi tam tak hian hriatchian emaw zir chian an tumlo (peihlo) fo thin. Dependency Injection chu class methods ah arguments pek a ni mai a, mahse Dependency Injection kan tih deuh bik hi chuan class **methods** (heng ho pawh hi function kan tih tho kha a ni) ah class dang instance arguments anga kan pek kha a ni mai. 
 
 Awle, tikhan a thuhma chu zo sela, kan Inversion-of-Control (IoC) class tangkaina leh hman dan han sawi teh ang:
 
@@ -70,7 +70,7 @@ $foo = make('Foo');
 
 $foo->someFooMethod();
 ```
-`IoC::` tih lai khi kan abstract anih ber chu. 
+`IoC::` tih lai khi kan abstract anih ber chu.
 
 He class te reuh te hi in tangkaipuia in mamawh dan azira in modify theih ngei ka beisei. 
 
