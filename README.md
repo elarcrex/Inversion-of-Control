@@ -51,6 +51,27 @@ $foo = IoC::make('Foo');
 $foo->someFooMethod();
 ```
 
+Kan **helpers** folder chhungah `functions.php` file ah helper pahnih ka dah a, chu helpers pahnih hman dan chu:
+
+```php
+//IoC::bind('Foo', function() {
+	//return new Foo(new Bar, new Baz, new Two, new Three, new Four, new Five, new Siz);
+//}); tih aiah
+
+bind('Foo', function() {
+	return new Foo(new Bar, new Baz, new Two, new Three, new Four, new Five, new Siz);
+});
+
+//$foo = IoC::make('Foo'); tih aiah
+
+$foo = make('Foo');
+
+//$foo = new Foo(); tih nen a in ang deuh reng a ni, code ziah tam lamah
+
+$foo->someFooMethod();
+```
+`IoC::` tih lai khi kan abstract anih ber chu. 
+
 He class te reuh te hi in tangkaipuia in mamawh dan azira in modify theih ngei ka beisei. 
 
 
