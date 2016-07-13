@@ -25,7 +25,7 @@ $foo = new Foo(new Bar, new Baz);
 ```
 Han en mai chuan code tlem te chu a ni naa, mahse `Foo` khian class dang mamawh belh ta sela, entirnan class paruk instance te lo mamawh ta sela, 
 ```php
-$foo = new Foo(new Bar, new Baz, new Two, new Three, new Four, new Five, new Six);
+$foo = new Foo(new Bar, new Baz, new Three, new Four, new Five, new Six );
 ```
 Class pakhat instantiate ringawt tur chuan ziah tur tam zia khi. Chu ai chuan IoC container nei ta ila, kan mamawh ang class instance kan bind theih anga, kan mamawh hunah kan bind sa, kan IoC container registry chhunga awmsa kha hmang ta mai ila, a chunga thui deuh chhu nawn seklo khian.
 
